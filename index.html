@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cambridge Coffee Shops</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Caffeinated Cambridge</h1>
+        </div>
+        <div id="map"></div>
+        <div id="controls">
+            <div id="form">
+                <form action="">
+                    <input type="radio" name="filter" value="all" checked>
+                    <label for="Show All Coffee Shops">Show All Coffee Shops</label>
+                    <input type="radio" name="filter" value="starbucks">
+                    <label for="Starbucks Only">Starbucks Only</label>
+                </form>
+            </div>
+            <div id="credits">
+                <p>Coffee Shop Data from <a href="http://www.referenceusa.com/">ReferenceUSA</a><br>#JustForFun - &copy;2020, Irose Tony</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- include leaflet.js library -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
